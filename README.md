@@ -20,6 +20,18 @@ https://v3.bootcss.com/components/#labels
 
 中文社区
 
+cookie和session
+cookie相当于银行账户
+session就是银行卡
 
+这个cookie带着回传服务器端，服务器端会拿到cookie，在数据库（或者缓存，内存）找到session，就是银行账户，查到信息，返回，渲染到页面
+没有登录的时候，显示登录
+登录成功后，显示小匠，并且登录按钮消失。
+
+session是在HttpServletRequest里面拿到的
+
+从Github授权登录，获取用户信息，在页面中通过登录态判断用户是否登录，然后展示用户名和用户信息
+
+https://v3.bootcss.com/
 
 
